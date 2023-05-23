@@ -49,15 +49,20 @@
     display: flex;
 }
 .launch-time div{
-    flex-basis: 150px;
-    margin-bottom: 30px;
+    /* flex-basis: 150px; */
+    text-align: center;
+    text-shadow: 1px 4px 7px #945252;
+    width: 138px;
+    background: #7868d3;
+    margin: 40px 30px 40px 0;
+    padding: 16px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-radius: 30px;
+    box-shadow: 1px 20px 30px #945252;
 }
 .launch-time div p{
     font-size: 60px;
-    margin-bottom: -5px;
-}
-.launch-time div span{
-    margin-left: 10px;
 }
 .rocket{
     width: 250px;
