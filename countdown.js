@@ -14,10 +14,10 @@ const showTime = setInterval(function () {
     const minutes = Math.floor((dateLine / 60) % 60);
     const seconds = Math.floor(dateLine % 60);
 
-    // const days = dateLine / 1000 / 3600 / 24;
-    // const hours = dateLine / 1000 / 3600 % 24;
-    // const minutes = dateLine / 1000 / 60 % 60;
     // const seconds = dateLine / 1000 % 60;
+    // const minutes = dateLine / 1000 / 60 % 60;
+    // const hours = dateLine / 1000 / 3600 % 24;
+    // const days = dateLine / 1000 / 3600 / 24;
 
     // const dateLine = Target - currentDate;
     // const days = Math.floor(dateLine / (1000 * 60 * 60 * 24));
